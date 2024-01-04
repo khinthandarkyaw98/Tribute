@@ -1,0 +1,104 @@
+body {
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 30px 0;
+  width: 100%;
+  height: 100%;
+}
+
+#main, 
+#img-div {
+  border-radius: 4px;
+}
+
+#image,
+#img-caption,
+#tribute-info {
+  margin: 0 auto;
+}
+
+#title,
+#img-caption,
+.more-info {
+  text-align: center;
+}
+
+#main {
+  background-color: #d5d5d5;
+  margin: 10px;
+  padding: 10px;
+}
+
+#title {
+  padding: 30px 0 10px 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p,
+#img-caption,
+#tribute-info {
+  font-size: 1.1rem;
+}
+
+#img-div {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+#img-caption {
+  padding: 15px;
+}
+
+#tribute-info,
+.more-info {
+  max-width: 600px;
+}
+
+#tribute-info h3 {
+  text-align: center;
+  padding: 2.2rem 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+ul li, 
+#quote,
+.more-info {
+  padding: 0.5rem 0;
+  line-height: 1.8rem;
+}
+
+#quote p {
+  font-style: italic;
+}
+
+.more-info p {
+  font-size: 1.3rem;
+}
+
+#tribute-link:active,
+#tribute-link:visited {
+  color: rgb(109, 70, 109);
+  cursor: pointer;
+}
